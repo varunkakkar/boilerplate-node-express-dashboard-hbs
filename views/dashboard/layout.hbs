@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    {{>header}}
+    <div class="px-2 pt-2">
+        <div class="flex -mx-2">
+            <div class="w-1/4 px-2">
+                <div class="bg-gray-500">
+                    <code>
+                        This is the Sidebar Navigation Menu which contains all the navigation links to the various dashboards on the platform.
+                    </code>
+                </div>
+            </div>
+            <div class="w-3/4 px-2">
+                <div class="bg-gray-500">
+                    {{{body}}}
+                </div>
+            </div>
+        </div>
+    </div>
+    {{!-- Main Script Files --}}
+</body>
+
+</html>
