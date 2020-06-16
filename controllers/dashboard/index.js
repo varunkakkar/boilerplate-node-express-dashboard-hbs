@@ -5,7 +5,7 @@ var router = express.Router();
 router.get('/', function (req, res) {
   res.render('dashboard/index.hbs', {
     layout: "dashboard/layout.hbs",
-    title: 'Ximivogue - Dashboard'
+    title: 'Dashboard'
   });
 });
 
